@@ -1,6 +1,5 @@
 # client.py
 # By Gargi Chaurasia 2019059
-import time
 import socket
 import sys
 import pickle
