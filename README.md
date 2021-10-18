@@ -2,8 +2,6 @@
 
 ---
 
-The task is to create a client server application ensuring authenticity, confidentiality and integrity.
-
 ## Table of Contents
 
 1. [Overview](#overview)
@@ -25,4 +23,28 @@ The code execution requires [python 3.x](https://www.python.org/) version instal
 
 This repository consists of 2 files and 1 package which consists of 4 modules.
 
--- \[util] \*
+1. Util Package
+
+   - _This utitlity package contains all the required files for performing entire encryption and decryption._
+
+   - **The modules are:**
+
+     - [RSA.py](#RSA)
+     - [SAES.py](#saes.py)
+     - [HashAlgo.py](#hashalgo.py)
+     - [Operations.py](#operations.py)
+
+2. [server.py](#server.py)
+
+   - _This file is for server side communication & decryption algorithm implementation_
+
+3. [client.py](#client.py)
+   - _This file is for client side communication & encryption algorithm implementation_
+
+## Implementation
+
+---
+
+### 1. RSA.py
+
+_RSA class for generating private and public key and rsa encryption and algorithm_

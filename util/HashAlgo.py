@@ -2,7 +2,7 @@
 import hashlib
 
 
-class DigitalSignature:
+class HashAlgo:
 
     @classmethod
     def generateHashCode(self, message):

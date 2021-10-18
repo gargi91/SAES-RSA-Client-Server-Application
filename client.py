@@ -4,7 +4,7 @@ import time
 import socket
 import sys
 import pickle
-from util.DigitalSignature import DigitalSignature
+from util.HashAlgo import HashAlgo
 from util.Operations import Operations
 from util.RSA import RSA
 from util.SAES import SAES
@@ -74,7 +74,7 @@ class Client:
         print('Ciphertext:', ''.join(ciphertext_hex))
 
         # Generating digest
-        hash_code = DigitalSignature.generateHashCode(message=self.message)
+        hash_code = HashAlgo.generateHashCode(message=self.message)
         print(f"\nMessage digest: {hash_code}")
 
         # Creating digital signature using hash code
