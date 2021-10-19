@@ -149,4 +149,4 @@ First run the server side
 
 ## Sample Output
 
-![Sample-Screenshot](img\sample_output.png)
+![Sample-Screenshot](./img/sample_output.png)
